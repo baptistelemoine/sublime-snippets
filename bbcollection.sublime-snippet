@@ -1,0 +1,28 @@
+<snippet>
+    <content><![CDATA[
+define([
+    'jquery',
+    'underscore',
+    'backbone'
+    ], function (\$, _, Backbone) {
+
+    return Backbone.Collection.extend({
+        
+        initialize:function(options) {
+           
+        },
+
+        render:function(){
+
+        }
+
+    });
+
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bbcollection</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.js</scope> -->
+    <description>Backbone.Collection</description>
+</snippet>
